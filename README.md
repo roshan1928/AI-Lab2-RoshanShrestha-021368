@@ -1,5 +1,3 @@
-# AI-Lab2-RoshanShrestha-021368
-
 # 🔍 Heuristic Search Algorithms
 
 This repository contains Python implementations of two classic heuristic search problems:
