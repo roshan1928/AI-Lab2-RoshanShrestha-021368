@@ -61,7 +61,6 @@ Initial: `[C, A, D, B]` → Goal: `[A, B, C, D]`
 
 ### ▶️ Running the Programs
 
-To run the 8-puzzle problem:
 ```bash
 python eight_puzzle_bfs.py
 python block_arrangement_hill_climb.py
