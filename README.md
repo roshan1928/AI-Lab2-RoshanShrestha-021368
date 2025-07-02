@@ -22,6 +22,6 @@ This repository contains Python implementations of two classic heuristic search 
 ### 🧩 Problem Description
 A 3x3 puzzle board with tiles numbered 1–8 and one blank tile (0). The goal is to reach the state:
 
-1 2 3
-4 5 6
-7 8 0
+- 1 2 3
+- 4 5 6
+- 7 8 0
