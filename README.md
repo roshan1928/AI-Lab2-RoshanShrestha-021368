@@ -9,7 +9,7 @@ This repository contains Python implementations of two classic heuristic search 
 
 ---
 
-## 📌 Contents
+## Contents
 
 - `eight_puzzle_bfs.py` - Solves the 8-puzzle problem using BFS.
 - `block_arrangement_hill_climb.py` - Solves the block arrangement problem using Hill Climbing.
@@ -19,17 +19,17 @@ This repository contains Python implementations of two classic heuristic search 
 
 ## 1️⃣ 8-Puzzle Problem (BFS with Manhattan Heuristic)
 
-### 🧩 Problem Description
+### Problem Description
 A 3x3 puzzle board with tiles numbered 1–8 and one blank tile (0). The goal is to reach the state:
 
 - 1 2 3
 - 4 5 6
 - 7 8 0
 
-### 📈 Heuristic Used
+### Heuristic Used
 - **Manhattan Distance**: Sum of the distances each tile is from its goal position.
 
-### 🛠 Features
+### Features
 - Accepts any solvable initial state.
 - Explores states using BFS.
 - Prints heuristic values of each explored state.
@@ -39,22 +39,22 @@ A 3x3 puzzle board with tiles numbered 1–8 and one blank tile (0). The goal is
 
 ## 2️⃣ Block Arrangement Problem (Hill Climbing)
 
-### 📦 Problem Description
+### Problem Description
 Arrange four labeled blocks `[A, B, C, D]` in correct order using swap of adjacent elements. For example:
 
 Initial: `[C, A, D, B]` → Goal: `[A, B, C, D]`
 
-### 📈 Heuristic Used
+### Heuristic Used
 - **Number of misplaced blocks** compared to the goal state.
 
-### 🛠 Features
+### Features
 - Implements simple Hill Climbing.
 - Detects if algorithm gets stuck in local maximum.
 - Shows the moves taken and current heuristic at each step.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 🔧 Requirements
 - Python 3.x
