@@ -1,6 +1,6 @@
 # AI-Lab2-RoshanShrestha-021368
 
-# 🔍 k-Nearest Neighbors (kNN) Classifier - From Scratch in Python
+# 🔍 Machine Learning: k-Nearest Neighbors (kNN)
 
 This project demonstrates how to implement the **k-Nearest Neighbors (kNN)** algorithm from scratch using Python. It includes:
 
