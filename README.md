@@ -1,44 +1,27 @@
 # AI-Lab2-RoshanShrestha-021368
 
-# 🔍 Machine Learning: k-Nearest Neighbors (kNN)
+# 🔍 Heuristic Search Algorithms
 
-This project demonstrates how to implement the **k-Nearest Neighbors (kNN)** algorithm from scratch using Python. It includes:
+This repository contains Python implementations of two classic heuristic search problems:
 
-- Binary classification (Pass/Fail) using height and weight
-- Multi-class classification (Species A, B, C) using flower measurements
-- Decision boundary visualization using Matplotlib
-
----
-
-## 📁 Files Included
-
-| File Name                        | Description |
-|----------------------------------|-------------|
-| `knn_binary_classification.py`   | kNN for binary classification with 2 features |
-| `knn_multiclass_classification.py` | kNN for multi-class classification with 3 features |
-| `knn_visualization.py`           | Visualization of decision boundaries for binary classification |
-| `README.md`                      | Project documentation |
+1. **8-Puzzle Problem** using **Breadth-First Search (BFS)** with Manhattan distance as a heuristic.
+2. **Block Arrangement Problem** using **Hill Climbing** algorithm with misplaced block heuristic.
 
 ---
 
-## 📘 Description
+## 📌 Contents
 
-This project uses **Euclidean distance** to measure similarity between data points.
-
-### 1. Binary Classification (2 Features)
-- Features: `height`, `weight`
-- Labels: `Pass=1`, `Fail=0`
-- Uses manual kNN algorithm (no `sklearn`)
-- Value of `k`: 3
-
-### 2. Multi-Class Classification (3 Features)
-- Features: `sepal length`, `sepal width`, `petal length`
-- Labels: `Species A=0`, `B=1`, `C=2`
-- Value of `k`: 5
-
-### 3. Visualization
-- Uses a mesh grid to visualize the **decision boundaries**
-- Scatter plot colored by class
-- Visualizes how the algorithm separates regions of the feature space
+- `eight_puzzle_bfs.py` - Solves the 8-puzzle problem using BFS.
+- `block_arrangement_hill_climb.py` - Solves the block arrangement problem using Hill Climbing.
+- `README.md` - This documentation.
 
 ---
+
+## 1️⃣ 8-Puzzle Problem (BFS with Manhattan Heuristic)
+
+### 🧩 Problem Description
+A 3x3 puzzle board with tiles numbered 1–8 and one blank tile (0). The goal is to reach the state:
+
+1 2 3
+4 5 6
+7 8 0
